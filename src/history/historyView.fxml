@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="history.historyViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff3b1f" height="34.0" stroke="#ff3b1f" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Label layoutX="86.0" layoutY="51.0" text="Explore Donor Information">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="bgroup" layoutX="36.0" layoutY="105.0" prefWidth="150.0" />
+      <Button layoutX="227.0" layoutY="105.0" mnemonicParsing="false" onAction="#onFetch" prefHeight="26.0" prefWidth="102.0" text="Fetch" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="362.0" layoutY="105.0" mnemonicParsing="false" onAction="#onShow" prefHeight="26.0" prefWidth="102.0" text="Show All" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TableView fx:id="records" layoutX="28.0" layoutY="179.0" prefHeight="200.0" prefWidth="442.0" />
+      <Button layoutX="174.0" layoutY="410.0" mnemonicParsing="false" onAction="#onConvert" prefHeight="26.0" prefWidth="150.0" text="Convert to excel sheet" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

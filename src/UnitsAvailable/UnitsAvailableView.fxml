@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="UnitsAvailable.UnitsAvailableViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff3b1f" height="33.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Label layoutX="140.0" layoutY="64.0" text="Blood Units Available">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="132.0" text="A+" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="189.0" text="A-" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="239.0" text="B+" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="298.0" text="B-" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="351.0" text="AB+" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="414.0" text="AB-" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="ap" contentDisplay="CENTER" layoutX="205.0" layoutY="132.0" prefHeight="34.0" prefWidth="198.0" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="an" contentDisplay="CENTER" layoutX="205.0" layoutY="189.0" prefHeight="34.0" prefWidth="198.0" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="bp" contentDisplay="CENTER" layoutX="205.0" layoutY="239.0" prefHeight="34.0" prefWidth="198.0" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="bn" contentDisplay="CENTER" layoutX="205.0" layoutY="298.0" prefHeight="34.0" prefWidth="198.0" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="abp" contentDisplay="CENTER" layoutX="205.0" layoutY="351.0" prefHeight="34.0" prefWidth="198.0" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="abn" contentDisplay="CENTER" layoutX="205.0" layoutY="414.0" prefHeight="34.0" prefWidth="198.0" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

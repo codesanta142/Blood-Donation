@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="500.0" minWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="allhistory.allhistoryviewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff3b1f" height="34.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="500.0" />
+      <Button layoutX="166.0" layoutY="159.0" mnemonicParsing="false" onAction="#donor" text="Donors History" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="262.0" mnemonicParsing="false" onAction="#donation" text="Donation History" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="176.0" layoutY="381.0" mnemonicParsing="false" onAction="#issue" text="Issue History" textFill="#ff3b1f">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
