@@ -1,6 +1,7 @@
 # Blood Donation
-
-An online blood donation portal where we can have access to all the activities such as registeration , issue of blood , donation of blood etc.
+- This project aims towards an interface for the hospitals and blood banks to maintain the records of donors, alongside keeping their all history.
+- This would further help to reduce the time to get blood availabilities in case of emergencies.
+- It has special features such as Donor registeration , donation of blood , issue blood , convert all the histories to the excel format etc.
 
 -----------------------------------------------------------------------------------------------
 
@@ -13,4 +14,6 @@ MySQL (Database)
 Java , Javafx
 
 ------------------------------------------------------------------------------------------------
-
+## Credentials 
+#### Username: kirti
+#### Password: 123
